@@ -10,6 +10,7 @@ The project uses the [Plant Disease Recognition Dataset](https://www.kaggle.com/
 - Powdery
 
 ## Image Processing
+The images are preprocessed with the following steps:
 - Resize the image into 128 x 128.
 - Convert the input images into RGB if needed.
 - Convert to numpy arrays for efficient processing and compatibility with machine learning libraries like TensorFlow.
